@@ -93,7 +93,7 @@ font-size:14px;
 
 <div>
 👉 INSTRUCTIONS:<br>
-🔢 Total Questions: 100<br>
+🔢 Total Questions: 150<br>
 ⏱️ Time per Question: 30 sec<br>
 ⭐ Correct Answer: +10 Points<br>
 ❌ Wrong Answer: 0 Point<br>
@@ -166,7 +166,7 @@ student=document.getElementById('studentName').value||'Student';
 let selectedClass=document.getElementById('classSelect').value;
 questions=[...questionBank[selectedClass]]; // copy array
 shuffleArray(questions); // random order
-questions=questions.slice(0,100); // max 100 questions
+questions=questions.slice(0,150); // max 150 questions
 currentQuestion=0;
 score=0;
 
@@ -249,7 +249,7 @@ document.getElementById('gameScreen').classList.add('hidden');
 document.getElementById('endScreen').classList.remove('hidden');
 document.getElementById('finalPoints').innerText=score;
 document.getElementById('resName').innerText=student;
-let l='Needs Practice';if(score>=500)l='Skilled Performer';if(score>=800)l='IT Champion';
+let l='Needs Practice';if(score>=600)l='Skilled Performer';if(score>=900)l='IT Champion';
 document.getElementById('level').innerText='Performance Level: '+l;
 let last = getLastPerformance(student);
 if(last){
@@ -296,4 +296,5 @@ document.getElementById('certDate').innerText=new Date().toLocaleDateString()}
 </body>
 
 </html>
+
 
