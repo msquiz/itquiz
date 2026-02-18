@@ -1351,6 +1351,539 @@ options:[
 ans:0}
 ],
 
+"10A":[
+{q:"सेल्फ-मैनेजमेंट स्किल का मतलब क्या है?\nWhat does self-management skill mean?",
+options:[
+"दूसरों को मैनेज करना / Managing others",
+"खुद को मैनेज करना / Managing oneself",
+"सिर्फ समय मैनेज करना / Only managing time",
+"सिर्फ पैसा मैनेज करना / Only managing money"
+],
+ans:1},
+
+{q:"टाइम मैनेजमेंट का मुख्य उद्देश्य क्या है?\nWhat is the main objective of time management?",
+options:[
+"समय बर्बाद करना / Wasting time",
+"काम में देरी करना / Delaying work",
+"समय का सर्वोत्तम उपयोग करना / Best use of time",
+"सिर्फ पढ़ाई करना / Only studying"
+],
+ans:2},
+
+{q:"लक्ष्य (Goal) का मतलब क्या है?\nWhat is a goal?",
+options:[
+"सपना / Dream",
+"काम / Work",
+"टारगेट / लक्ष्य / Target",
+"परिणाम / Result"
+],
+ans:2},
+
+{q:"अल्पकालिक लक्ष्य का उदाहरण कौन सा है?\nWhich is an example of a short-term goal?",
+options:[
+"डॉक्टर बनना / Becoming a doctor",
+"इंजीनियर बनना / Becoming an engineer",
+"आज का होमवर्क पूरा करना / Completing today's homework",
+"कंपनी खोलना / Opening a company"
+],
+ans:2},
+
+{q:"दीर्घकालिक लक्ष्य का उदाहरण कौन सा है?\nWhich is an example of a long-term goal?",
+options:[
+"कल टेस्ट देना / Giving a test tomorrow",
+"आज पढ़ाई करना / Studying today",
+"करियर बनाना / Building a career",
+"स्कूल जाना / Going to school"
+],
+ans:2},
+
+{q:"सेल्फ-मोटिवेशन का मतलब क्या है?\nWhat is self-motivation?",
+options:[
+"दूसरों से मजबूर होना / Being forced by others",
+"खुद को प्रेरित करना / Encouraging oneself",
+"सिर्फ इनाम मिलना / Only getting reward",
+"सिर्फ सजा से काम करना / Working due to punishment"
+],
+ans:1},
+
+{q:"स्ट्रेस का मुख्य कारण क्या है?\nMain reason of stress is:",
+options:[
+"योजना बनाना / Planning",
+"पर्याप्त नींद / Proper sleep",
+"दबाव और तनाव / Pressure and tension",
+"व्यायाम / Exercise"
+],
+ans:2},
+
+{q:"स्ट्रेस कम करने का सबसे अच्छा तरीका क्या है?\nBest way to reduce stress is:",
+options:[
+"मोबाइल ज्यादा चलाना / Using mobile more",
+"व्यायाम और ध्यान / Exercise and meditation",
+"देर रात जागना / Late night जागना",
+"गुस्सा करना / Getting angry"
+],
+ans:1},
+
+{q:"पॉजिटिव थिंकिंग का क्या लाभ है?\nBenefit of positive thinking is:",
+options:[
+"आत्मविश्वास बढ़ता है / Confidence increases",
+"तनाव बढ़ता है / Stress increases",
+"डर बढ़ता है / Fear increases",
+"उलझन होती है / Confusion occurs"
+],
+ans:0},
+
+{q:"सेल्फ-डिसिप्लिन का मतलब क्या है?\nWhat does self-discipline mean?",
+options:[
+"नियम तोड़ना / Breaking rules",
+"अपने काम पर नियंत्रण रखना / Controlling oneself",
+"दूसरों को नियंत्रित करना / Controlling others",
+"सिर्फ सजा / Only punishment"
+],
+ans:1},
+
+{q:"ICT का फुल फॉर्म क्या है?\nWhat is the full form of ICT?",
+options:[
+"Information and Communication Technology",
+"Internet and Computer Technology",
+"Information and Coding Tool",
+"Internal Computer Technique"
+],
+ans:0},
+
+{q:"कंप्यूटर का मुख्य उपयोग क्या है?\nMain use of a computer is:",
+options:[
+"सिर्फ गेम खेलना / Only playing games",
+"सिर्फ टाइपिंग / Only typing",
+"डेटा प्रोसेस करना / Processing data",
+"सिर्फ इंटरनेट चलाना / Only browsing internet"
+],
+ans:2},
+
+{q:"इनपुट डिवाइस का उदाहरण कौन सा है?\nWhich is an input device?",
+options:[
+"मॉनिटर / Monitor",
+"प्रिंटर / Printer",
+"कीबोर्ड / Keyboard",
+"स्पीकर / Speaker"
+],
+ans:2},
+
+{q:"आउटपुट डिवाइस का उदाहरण कौन सा है?\nWhich is an output device?",
+options:[
+"माउस / Mouse",
+"स्कैनर / Scanner",
+"कीबोर्ड / Keyboard",
+"मॉनिटर / Monitor"
+],
+ans:3},
+
+{q:"CPU का कार्य क्या है?\nWhat is the function of CPU?",
+options:[
+"डेटा स्टोर करना / Store data",
+"डेटा इनपुट लेना / Take input",
+"डेटा प्रोसेस करना / Process data",
+"डेटा प्रिंट करना / Print data"
+],
+ans:2},
+
+{q:"कंप्यूटर में डेटा स्थायी रूप से कहाँ स्टोर होता है?\nWhere is data stored permanently?",
+options:[
+"RAM",
+"CPU",
+"हार्ड डिस्क / स्टोरेज डिवाइस / Hard Disk",
+"Cache"
+],
+ans:2},
+
+{q:"ऑपरेटिंग सिस्टम का उदाहरण कौन सा है?\nWhich is an example of operating system?",
+options:[
+"MS Word",
+"Windows",
+"Google Chrome",
+"Printer"
+],
+ans:1},
+
+{q:"सॉफ्टवेयर के मुख्य प्रकार कितने होते हैं?\nHow many main types of software are there?",
+options:[
+"1",
+"2",
+"3",
+"4"
+],
+ans:1},
+
+{q:"MS Word का उपयोग किस लिए होता है?\nMS Word is used for:",
+options:[
+"ड्राइंग / Drawing",
+"कैलकुलेशन / Calculation",
+"डॉक्यूमेंट टाइपिंग / Typing documents",
+"म्यूजिक चलाना / Playing music"
+],
+ans:2},
+
+{q:"इंटरनेट का मुख्य लाभ क्या है?\nMain benefit of internet is:",
+options:[
+"वायरस / Virus",
+"धीमी गति / Slow speed",
+"सूचना साझा करना / Information sharing",
+"हार्डवेयर नुकसान / Hardware damage"
+],
+ans:2},
+
+{q:"Entrepreneur (उद्यमी) का मतलब क्या है?\nWho is an entrepreneur?",
+options:[
+"नौकरी करने वाला व्यक्ति / Job seeker",
+"व्यवसाय शुरू करने वाला व्यक्ति / Person who starts a business",
+"सिर्फ पैसा कमाने वाला / Only money earner",
+"शिक्षक / Teacher"
+],
+ans:1},
+
+{q:"Entrepreneurship (उद्यमिता) का मतलब क्या है?\nWhat is entrepreneurship?",
+options:[
+"नौकरी करना / Doing a job",
+"व्यवसाय बंद करना / Closing a business",
+"व्यवसाय शुरू और संचालित करना / Starting and running a business",
+"सिर्फ पढ़ाई करना / Only studying"
+],
+ans:2},
+
+{q:"उद्यमी की कौन सी गुणवत्ता आवश्यक है?\nWhich quality is important for an entrepreneur?",
+options:[
+"डर / Fear",
+"जोखिम लेने की क्षमता / Risk taking ability",
+"आलस्य / Laziness",
+"उलझन / Confusion"
+],
+ans:1},
+
+{q:"Business idea का स्रोत क्या हो सकता है?\nSource of a business idea can be:",
+options:[
+"समाज की समस्याएँ / Problems in society",
+"सिर्फ किताबें / Only books",
+"सिर्फ इंटरनेट / Only internet",
+"सिर्फ पैसा / Only money"
+],
+ans:0},
+
+{q:"उद्यमी का मुख्य उद्देश्य क्या होता है?\nMain objective of an entrepreneur is:",
+options:[
+"हानि करना / Making loss",
+"लाभ कमाना और मूल्य सृजन करना / Earn profit and create value",
+"सिर्फ नाम कमाना / Only fame",
+"समय बर्बाद करना / Waste time"
+],
+ans:1},
+
+{q:"Small business (छोटा व्यवसाय) का उदाहरण कौन सा है?\nWhich is an example of a small business?",
+options:[
+"बहुराष्ट्रीय कंपनी / Multinational company",
+"किराना स्टोर / Grocery store",
+"सरकारी कार्यालय / Government office",
+"स्कूल / School"
+],
+ans:1},
+
+{q:"Startup का मतलब क्या है?\nWhat is a startup?",
+options:[
+"पुराना व्यवसाय / Old business",
+"नया और नवाचार आधारित व्यवसाय / New and innovative business",
+"बंद व्यवसाय / Closed business",
+"सिर्फ ऑनलाइन नौकरी / Only online job"
+],
+ans:1},
+
+{q:"उद्यमी को योजना क्यों चाहिए?\nWhy does an entrepreneur need planning?",
+options:[
+"उलझन बढ़ाने के लिए / To increase confusion",
+"जोखिम कम करने के लिए / To reduce risk",
+"काम में देरी के लिए / To delay work",
+"सिर्फ लिखने के लिए / Only for writing"
+],
+ans:1},
+
+{q:"Entrepreneurship का क्या लाभ है?\nWhat is the benefit of entrepreneurship?",
+options:[
+"बेरोजगारी बढ़ती है / Increases unemployment",
+"नौकरियाँ कम होती हैं / Reduces jobs",
+"रोजगार सृजन होता है / Creates employment",
+"समय बर्बाद होता है / Wastes time"
+],
+ans:2},
+
+{q:"Entrepreneurial skills छात्रों की कैसे मदद करती हैं?\nHow do entrepreneurial skills help students?",
+options:[
+"सिर्फ परीक्षा पास / Only pass exams",
+"आत्मनिर्भर बनाती हैं / Make self-reliant",
+"सिर्फ अंक बढ़ाती हैं / Increase marks only",
+"सिर्फ व्यवसाय के लिए / Only for business"
+],
+ans:1},
+
+{q:"Self-awareness (आत्म-जागरूकता) का अर्थ क्या है?\nSelf-awareness means:",
+options:[
+"दूसरों को समझना / Understanding others",
+"स्वयं को समझना / Understanding oneself",
+"पैसा प्रबंधित करना / Managing money",
+"निर्देश देना / Giving instructions"
+],
+ans:1},
+
+{q:"Non-verbal communication का उदाहरण क्या है?\nWhich is a type of non-verbal communication?",
+options:[
+"पत्र / Letter",
+"भाषण / Speech",
+"चेहरे के भाव / Facial expression",
+"रिपोर्ट / Report"
+],
+ans:2},
+
+{q:"Emotional Intelligence (भावनात्मक बुद्धिमत्ता) का अर्थ क्या है?\nEmotional intelligence means:",
+options:[
+"भावनाओं को अनदेखा करना / Ignoring emotions",
+"भावनाओं को प्रबंधित करना / Managing emotions",
+"भावनाओं को छिपाना / Hiding feelings",
+"गुस्सा दिखाना / Showing anger"
+],
+ans:1},
+
+{q:"Green economy किस पर केंद्रित है?\nGreen economy focuses on:",
+options:[
+"सिर्फ लाभ / Profit only",
+"सिर्फ औद्योगिक विकास / Industrial growth only",
+"सतत विकास / Sustainable development",
+"सिर्फ तकनीक / Technology only"
+],
+ans:2},
+
+{q:"2015 में संयुक्त राष्ट्र द्वारा अपनाए गए SDGs की कुल संख्या कितनी है?\nHow many SDGs were adopted by UN in 2015?",
+options:[
+"13",
+"11",
+"17",
+"19"
+],
+ans:2},
+
+{q:"Stress management में ABC का अर्थ क्या है?\nABC of stress management stands for:",
+options:[
+"Ability, Burden, Concise",
+"Adore, Belief, Cause",
+"Adversity, Beliefs, Consequences",
+"Adapt, Balance, Cooperate"
+],
+ans:2},
+
+{q:"उच्च अपेक्षाएँ किस प्रकार के तनाव का कारण बनती हैं?\nHigh expectations lead to which type of stress?",
+options:[
+"मानसिक तनाव / Mental stress",
+"शारीरिक तनाव / Physical stress",
+"सामाजिक तनाव / Social stress",
+"आर्थिक तनाव / Financial stress"
+],
+ans:0},
+
+{q:"Writer में डिफ़ॉल्ट टेम्पलेट कौन सा होता है?\nThe default template in Writer is:",
+options:[
+"रिज़्यूमे / Resume",
+"प्रोजेक्ट / Project",
+"ब्लैंक डॉक्यूमेंट / Blank document",
+"चैप्टर / Chapter"
+],
+ans:2},
+
+{q:"Header विकल्प किस टैब में उपलब्ध होता है?\nHeader option is available under:",
+options:[
+"View टैब",
+"Insert टैब",
+"File टैब",
+"Tools टैब"
+],
+ans:1},
+
+{q:"Table of Contents किस पर आधारित होती है?\nTable of Contents is based on:",
+options:[
+"पैराग्राफ / Paragraphs",
+"हेडिंग्स / Headings",
+"चित्र / Pictures",
+"टेबल / Tables"
+],
+ans:1},
+
+{q:"इमेज को लिंक करने से क्या होता है?\nLinking an image:",
+options:[
+"फाइल साइज बढ़ता है / Increases file size",
+"फाइल साइज घटता है / Decreases file size",
+"कोई प्रभाव नहीं / No effect",
+"इमेज हट जाती है / Deletes image"
+],
+ans:1},
+
+{q:"Section break का उपयोग किस लिए होता है?\nSection break is used to:",
+options:[
+"टेक्स्ट हटाना / Delete text",
+"फॉर्मेट बदलना / Change formatting",
+"चित्र डालना / Insert picture",
+"प्रिंट करना / Print document"
+],
+ans:1},
+
+{q:"Autosum का उपयोग किस लिए होता है?\nAutosum is used for:",
+options:[
+"औसत निकालना / Average",
+"जोड़ करना / Addition",
+"सॉर्टिंग / Sorting",
+"फॉर्मेटिंग / Formatting"
+],
+ans:1},
+
+{q:"Conditional formatting कहाँ उपलब्ध है?\nConditional formatting is available under:",
+options:[
+"File",
+"Insert",
+"Format",
+"Data"
+],
+ans:2},
+
+{q:"Sorting डेटा को कैसे व्यवस्थित करता है?\nSorting arranges data in:",
+options:[
+"रैंडम क्रम / Random order",
+"आरोही/अवरोही क्रम / Ascending/Descending",
+"पैराग्राफ रूप / Paragraph form",
+"टेबल रूप / Table form"
+],
+ans:1},
+
+{q:"What-if analysis का उपयोग किस लिए होता है?\nWhat-if analysis is used to:",
+options:[
+"डेटा हटाना / Delete data",
+"परिणामों की तुलना / Compare outcomes",
+"चार्ट डालना / Insert chart",
+"शीट प्रिंट करना / Print sheet"
+],
+ans:1},
+
+{q:"Macro क्या है?\nA macro is:",
+options:[
+"चार्ट / Chart",
+"फॉर्मूला / Formula",
+"रिकॉर्ड किए गए कमांड्स की श्रृंखला / Recorded sequence of commands",
+"टेबल / Table"
+],
+ans:2},
+
+{q:"SELECT स्टेटमेंट का उपयोग किस लिए होता है?\nSELECT statement is used to:",
+options:[
+"रिकॉर्ड हटाना / Delete records",
+"रिकॉर्ड प्राप्त करना / Retrieve records",
+"रिकॉर्ड अपडेट करना / Update records",
+"टेबल बनाना / Create table"
+],
+ans:1},
+
+{q:"INSERT स्टेटमेंट का उपयोग किस लिए होता है?\nINSERT statement is used to:",
+options:[
+"रिकॉर्ड जोड़ना / Add records",
+"रिकॉर्ड हटाना / Remove records",
+"रिकॉर्ड सॉर्ट करना / Sort records",
+"रिकॉर्ड दिखाना / Display records"
+],
+ans:0},
+
+{q:"Primary key क्या सुनिश्चित करती है?\nPrimary key ensures:",
+options:[
+"डुप्लीकेट रिकॉर्ड / Duplicate records",
+"रिकॉर्ड की विशिष्टता / Record uniqueness",
+"सॉर्टिंग / Sorting",
+"फॉर्मेटिंग / Formatting"
+],
+ans:1},
+
+{q:"LAN का फुल फॉर्म क्या है?\nLAN stands for:",
+options:[
+"Local Area Network",
+"Large Area Network",
+"Long Area Network",
+"Link Area Network"
+],
+ans:0},
+
+{q:"Packet क्या है?\nPacket is:",
+options:[
+"ईमेल / Email",
+"डेटा की इकाई / Data unit",
+"सर्वर / Server",
+"सॉफ्टवेयर / Software"
+],
+ans:1},
+
+{q:"Slide Transition क्या है?\nSlide transition is:",
+options:[
+"टेक्स्ट स्टाइल / Text style",
+"एनीमेशन / Animation",
+"स्लाइड के बीच दृश्य प्रभाव / Visual effect between slides",
+"साउंड / Sound"
+],
+ans:2},
+
+{q:"फाइलनेम और एक्सटेंशन को किससे अलग किया जाता है?\nFilename and extension are separated by:",
+options:[
+"डॉलर ($)",
+"डॉट (.)",
+"अंडरस्कोर (_)",
+"हैश (#)"
+],
+ans:1},
+
+{q:"Emotional Intelligence क्या है?\nEmotional Intelligence is:",
+options:[
+"Self-awareness",
+"भावनाओं की पहचान और प्रबंधन की क्षमता / Ability to identify and manage emotions",
+"Stress management",
+"Emotional barrier"
+],
+ans:1},
+
+{q:"Blog क्या है?\nA blog is:",
+options:[
+"WWW",
+"Web",
+"ऑनलाइन व्यक्तिगत डायरी शैली वेबसाइट / Online personal diary website",
+"Chat"
+],
+ans:2},
+
+{q:"Evacuation drill किस लिए की जाती है?\nEvacuation drill is conducted for:",
+options:[
+"सांस्कृतिक कार्यक्रम / Cultural assembly",
+"ओपन हाउस / Open house",
+"आपातकाल में सुरक्षित निकासी / Safe evacuation in emergency",
+"ट्रिप्स / Trips"
+],
+ans:2},
+
+{q:"You cannot park your car anywhere ______ this building.\nसुरक्षा कारणों से आप इस बिल्डिंग के ______ कहीं भी गाड़ी पार्क नहीं कर सकते।",
+options:[
+"from",
+"around",
+"like",
+"for"
+],
+ans:1},
+
+{q:"Sandeep is doing his job ______ well.\nसंदीप अपना काम बहुत ______ कर रहा है।",
+options:[
+"very",
+"vary",
+"much",
+"good"
+],
+ans:0}
+],
+
 "11":[
  {q:"Linux kis type ka OS hai?",options:["Proprietary","Open Source","Paid","Utility"],ans:1},
  {q:"Compiler ka use?",options:["Translate code","Store data","Print","Browse"],ans:0}
