@@ -1883,7 +1883,401 @@ options:[
 ],
 ans:0}
 ],
+"10B":[
+{q:"संचार का मुख्य उद्देश्य क्या है?\nWhat is the main purpose of communication?",
+options:[
+"जानकारी साझा करना / To share information",
+"श्रोता को भ्रमित करना / To confuse the listener",
+"जोर से बोलना / To speak loudly",
+"कठिन शब्दों का उपयोग करना / To use difficult words"
+],
+ans:0},
 
+{q:"निम्न में से कौन संचार में बाधा नहीं है?\nWhich of the following is NOT a barrier to communication?",
+options:[
+"शोर / Noise",
+"स्पष्ट उच्चारण / Clear pronunciation",
+"सांस्कृतिक भिन्नताएँ / Cultural differences",
+"भावनात्मक तनाव / Emotional stress"
+],
+ans:1},
+
+{q:"संचार के 7 Cs का पूर्ण रूप क्या है?\nWhat is the full form of the 7 Cs in communication?",
+options:[
+"Clear, Correct, Creative, Colorful, Confusing, Critical, Cool",
+"Clear, Concise, Concrete, Correct, Coherent, Complete, Courteous",
+"Clear, Concise, Cooperative, Curious, Complex, Connected, Careful",
+"उपरोक्त में से कोई नहीं / None of the above"
+],
+ans:1},
+
+{q:"निम्न में से कौन गैर-मौखिक संचार का उदाहरण है?\nWhich of the following is an example of non-verbal communication?",
+options:[
+"पत्र लिखना / Writing a letter",
+"बैठक में बोलना / Speaking in a meeting",
+"सिर हिलाना / Nodding your head",
+"ईमेल भेजना / Sending an email"
+],
+ans:2},
+
+{q:"मौखिक संचार कौशल सुधारने का सबसे अच्छा तरीका क्या है?\nWhat is the best way to improve verbal communication skills?",
+options:[
+"लोगों से बात करने से बचना / Avoid talking to people",
+"जटिल शब्दों का उपयोग करना / Use complicated words",
+"स्पष्ट और आत्मविश्वास से बोलने का अभ्यास करना / Practice speaking clearly and confidently",
+"बहुत तेज बोलना / Speak very fast"
+],
+ans:2},
+
+{q:"हम अपने दिन की सकारात्मक शुरुआत कैसे करें?\nWhat is the best way to start our day positively?",
+options:[
+"जो कुछ गलत हो सकता है उसके बारे में सोचना / Think about all that can go wrong",
+"दिन में आने वाली कठिन परीक्षा के बारे में सोचना / Think about the difficult test you will face during the day",
+"अब तक की अपनी उपलब्धियों के बारे में सोचकर अच्छा महसूस करना / Think about all your accomplishments so far and feel good about them",
+"सड़क के ट्रैफिक के बारे में सोचकर तनाव लेना / Think about the traffic on the road and feel stressed"
+],
+ans:2},
+
+{q:"क्या पहाड़ी क्षेत्रों में रहने वाले लोग कई दिनों तक स्नान किए बिना रह सकते हैं?\nCan people living in hill stations skip taking a bath for many days?",
+options:[
+"नहीं, जलवायु कैसी भी हो नियमित स्नान करना चाहिए / No, irrespective of the climate one should take bath regularly",
+"हाँ, ठंडे क्षेत्रों में यह स्वीकार्य है / Yes, acceptable in cold climate",
+"हाँ, यदि गीले कपड़े से शरीर पोंछ लें तो ठीक है / Yes, if they wipe with wet cloth",
+"उपरोक्त में से कोई नहीं / None of the above"
+],
+ans:0},
+
+{q:"आत्म-प्रबंधन कौशल में आप किन कौशलों में सुधार कर सकते हैं?\nIn self-management skills you can improve yourself in various skills like?",
+options:[
+"अनुशासन / Discipline",
+"समय की पाबंदी / Timeliness",
+"लक्ष्य निर्धारण / Goal-setting",
+"उपरोक्त सभी / All of the above"
+],
+ans:3},
+
+{q:"लंबे समय तक ________ में रहने से स्वास्थ्य समस्याएँ और मानसिक परेशानियाँ हो सकती हैं।\nWhen you are under ________ for a prolonged period, it can cause health problems and mental troubles as well.",
+options:[
+"तनाव / Stress",
+"अनुशासन / Discipline",
+"समय की पाबंदी / Timeliness",
+"लक्ष्य निर्धारण / Goal-setting"
+],
+ans:0},
+
+{q:"कौन सा सॉफ्टवेयर कंप्यूटर के सभी उपकरणों का प्रबंधन करता है?\nWhich software manages all the devices of a computer?",
+options:[
+"ऑपरेटिंग सिस्टम / Operating system",
+"एप्लिकेशन सॉफ्टवेयर / Application software",
+"एंटी-वायरस सॉफ्टवेयर / Anti-virus software",
+"माइक्रोसॉफ्ट वर्ड / Microsoft Word"
+],
+ans:0},
+
+{q:"कौन कंप्यूटर मेमोरी का प्रबंधन करता है और उपयोग में आ रही मेमोरी को ट्रैक करता है?\nWho manages computer memory and keeps track of memory usage?",
+options:[
+"ऑपरेटिंग सिस्टम / Operating system",
+"एप्लिकेशन सॉफ्टवेयर / Application software",
+"एंटी-वायरस सॉफ्टवेयर / Anti-virus software",
+"माइक्रोसॉफ्ट वर्ड / Microsoft Word"
+],
+ans:0},
+
+{q:"GUI का पूर्ण रूप क्या है?\nGUI stands for?",
+options:[
+"ग्राफिकल यूजर इंटरफेस / Graphical User Interface",
+"ग्राफिकल यूजर इंटरैक्शन / Graphical User Interaction",
+"ग्राफिकल यूजर इंटरएक्टिव / Graphical User Interactive",
+"उपरोक्त में से कोई नहीं / None of the above"
+],
+ans:0},
+
+{q:"निम्न में से कौन ऑपरेटिंग सिस्टम नहीं है?\nWhich of the following is not an operating system?",
+options:[
+"DOS",
+"Windows",
+"Linux",
+"डिस्क डिफ्रैगमेंटor / Disk Defragmentor"
+],
+ans:3},
+
+{q:"निम्न में से कौन मोबाइल ऑपरेटिंग सिस्टम नहीं है?\nWhich of the following is not a mobile operating system?",
+options:[
+"Android",
+"iOS",
+"Windows Phone",
+"Linux"
+],
+ans:3},
+
+{q:"उद्यमी कौन होता है?\nWho is an entrepreneur?",
+options:[
+"प्रबंधक के अधीन कार्य करने वाला व्यक्ति / A person who works under a manager",
+"नए व्यावसायिक विचार प्रस्तुत करने वाला और जोखिम लेने वाला व्यक्ति / A person who introduces new business ideas and takes risks",
+"केवल उत्पाद बेचने वाला व्यक्ति / A person who only sells products",
+"कंपनी के नियमों का पालन करने वाला व्यक्ति / A person who follows company rules"
+],
+ans:1},
+{q:"निम्न में से कौन व्यवसायिक गतिविधि का प्रकार नहीं है?\nWhich of the following is NOT a type of business activity?",
+options:[
+"उत्पादन व्यवसाय / Manufacturing Business",
+"व्यापार व्यवसाय / Trading Business",
+"सेवा व्यवसाय / Service Business",
+"सरकारी व्यवसाय / Government Business"
+],
+ans:3},
+
+{q:"एक उद्यमी का सबसे महत्वपूर्ण गुण क्या है?\nWhat is the most important quality of an entrepreneur?",
+options:[
+"ग्राहक प्रतिक्रिया को अनदेखा करना / Ignoring customer feedback",
+"चुनौतियों का सामना करते समय हार मान लेना / Giving up when facing a challenge",
+"आत्मविश्वास और जोखिम उठाना / Confidence and risk-taking",
+"निर्णय लेने के लिए दूसरों पर निर्भर रहना / Depending on others for decision-making"
+],
+ans:2},
+
+{q:"उद्यमी और कर्मचारी के बीच मुख्य अंतर क्या है?\nWhat is the primary difference between an entrepreneur and an employee?",
+options:[
+"उद्यमी जोखिम लेते हैं, कर्मचारी वेतन के लिए काम करते हैं / Entrepreneurs take risks, employees work for a salary",
+"कर्मचारी व्यवसाय शुरू करते हैं / Employees start businesses",
+"उद्यमी केवल निर्देशों का पालन करते हैं / Entrepreneurs only follow instructions",
+"उद्यमी ग्राहक की जरूरतों पर ध्यान नहीं देते / Entrepreneurs do not focus on customer needs"
+],
+ans:0},
+
+{q:"उद्यमी के लिए बाजार अनुसंधान क्यों महत्वपूर्ण है?\nWhy is market research important for an entrepreneur?",
+options:[
+"ग्राहक की जरूरतों और प्रतिस्पर्धा को समझने के लिए / To understand customer needs and competition",
+"दूसरे व्यवसायों की नकल करने के लिए / To copy other businesses",
+"ग्राहक की पसंद को अनदेखा करने के लिए / To ignore customer preferences",
+"व्यवसाय योजना से बचने के लिए / To avoid business planning"
+],
+ans:0},
+
+{q:"ग्रीन स्किल्स का मुख्य उद्देश्य क्या है?\nWhat is the primary goal of Green Skills?",
+options:[
+"जीवाश्म ईंधन का उपयोग बढ़ाना / Increasing the use of fossil fuels",
+"पर्यावरणीय स्थिरता और आर्थिक विकास को बढ़ावा देना / Promoting environmental sustainability and economic growth",
+"औद्योगिक कचरे का विस्तार करना / Expanding industrial waste production",
+"इको-फ्रेंडली क्षेत्रों में रोजगार कम करना / Reducing employment in eco-friendly sectors"
+],
+ans:1},
+
+{q:"निम्न में से कौन नवीकरणीय ऊर्जा का स्रोत नहीं है?\nWhich of the following is NOT a renewable energy source?",
+options:[
+"पवन ऊर्जा / Wind energy",
+"सौर ऊर्जा / Solar energy",
+"कोयला ऊर्जा / Coal energy",
+"जलविद्युत / Hydropower"
+],
+ans:2},
+
+{q:"उद्योग पर्यावरण अनुकूल प्रथाएँ कैसे अपना सकते हैं?\nHow can industries adopt eco-friendly practices?",
+options:[
+"ऊर्जा-कुशल मशीनों का उपयोग / Using energy-efficient machinery",
+"सिंगल-यूज़ प्लास्टिक उत्पादन बढ़ाना / Increasing single-use plastic production",
+"औद्योगिक कचरे को जल में फेंकना / Dumping industrial waste in water bodies",
+"वनों की कटाई को बढ़ावा देना / Encouraging deforestation"
+],
+ans:0},
+
+{q:"3Rs का स्थिरता में क्या महत्व है?\nWhat is the role of the 3Rs in sustainability?",
+options:[
+"Reuse, Repair, Restore",
+"Reduce, Reuse, Recycle",
+"Reform, Rebuild, Reuse",
+"Redesign, Replace, Renew"
+],
+ans:1},
+
+{q:"‘कार्बन फुटप्रिंट’ का सबसे अच्छा वर्णन क्या है?\nWhich of the following best describes a carbon footprint?",
+options:[
+"पौधों द्वारा अवशोषित कार्बन डाइऑक्साइड की मात्रा / The amount of carbon dioxide absorbed by plants",
+"मानव गतिविधियों द्वारा उत्सर्जित कुल ग्रीनहाउस गैसें / The total greenhouse gases emitted by human activities",
+"कार्बन को ईंधन में बदलने की प्रक्रिया / The process of converting carbon into fuel",
+"पेड़ों द्वारा उत्पादित ऑक्सीजन की मात्रा / The amount of oxygen produced by trees"
+],
+ans:1},
+
+{q:"LibreOffice Writer में निम्न में से कौन स्टाइल की श्रेणी नहीं है?\nWhich of the following is NOT a category of styles in LibreOffice Writer?",
+options:[
+"पेज स्टाइल / Page Style",
+"कैरेक्टर स्टाइल / Character Style",
+"इमेज स्टाइल / Image Style",
+"टेबल स्टाइल / Table Style"
+],
+ans:2},
+
+{q:"LibreOffice Writer में Styles विंडो खोलने की शॉर्टकट कुंजी क्या है?\nWhat is the shortcut key to open the Styles window in LibreOffice Writer?",
+options:[
+"F10",
+"F11",
+"Ctrl + S",
+"Alt + F"
+],
+ans:1},
+
+{q:"LibreOffice Writer में कई उपयोगकर्ताओं द्वारा किए गए बदलावों को ट्रैक करने की सुविधा कौन सी है?\nWhich feature in LibreOffice Writer helps track modifications in a document by multiple users?",
+options:[
+"स्टाइल मैनेजर / Style Manager",
+"ट्रैक चेंजेस / Track Changes",
+"पेज लेआउट / Page Layout",
+"टेक्स्ट फॉर्मेटिंग / Text Formatting"
+],
+ans:1},
+
+{q:"दस्तावेज़ में 'Table of Contents' का उद्देश्य क्या है?\nWhat is the purpose of the 'Table of Contents' in a document?",
+options:[
+"पंक्तियों और स्तंभों में टेक्स्ट व्यवस्थित करना / To organize text in rows and columns",
+"शीर्षकों और उपशीर्षकों का सारांश दिखाना / To display a summary of headings and subheadings",
+"फुटनोट जोड़ना / To insert footnotes",
+"क्रमांकित सूची बनाना / To create numbered lists"
+],
+ans:1},
+
+{q:"LibreOffice Writer में दस्तावेज़ को टेम्पलेट के रूप में सहेजने के लिए कौन सा विकल्प है?\nWhich option allows a user to save a document as a template in LibreOffice Writer?",
+options:[
+"File > Save As",
+"File > Templates > Save",
+"Edit > Save As Template",
+"View > Save Template"
+],
+ans:1},
+
+{q:"स्प्रेडशीट में पंक्ति और स्तंभ के प्रतिच्छेदन को क्या कहते हैं?\nWhat is the intersection of a row and a column in a spreadsheet called?",
+options:[
+"बॉक्स / Box",
+"टेबल / Table",
+"सेल / Cell",
+"चार्ट / Chart"
+],
+ans:2},
+{q:"निम्न में से कौन-सा फंक्शन किसी रेंज के संख्याओं को जोड़ने के लिए उपयोग किया जाता है?\nWhich of the following is a function used to add numbers in a range?",
+options:[
+"ADD",
+"SUM",
+"TOTAL",
+"PLUS"
+],
+ans:1},
+
+{q:"निम्न में से कौन पहली कॉलम में मान खोजकर दूसरी कॉलम से संबंधित मान लौटाता है?\nWhich of the following is used to search for a value in the first column of a table and return a value from a different column?",
+options:[
+"HLOOKUP",
+"FIND",
+"SEARCH",
+"VLOOKUP"
+],
+ans:3},
+
+{q:"फॉर्मूला में सेल रेफरेंस को absolute बनाने के लिए कौन सा चिन्ह उपयोग होता है?\nWhat is the symbol used to make a cell reference absolute in a formula?",
+options:[
+"*",
+"#",
+"$",
+"&"
+],
+ans:2},
+
+{q:"निम्न में से कौन सा लॉजिकल फंक्शन सभी शर्तों के सत्य होने की जाँच करता है?\nWhich of the following logical functions checks if all given conditions are true?",
+options:[
+"IF",
+"AND",
+"OR",
+"NOT"
+],
+ans:1},
+
+{q:"निम्न में से कौन डेटाबेस मॉडल का प्रकार नहीं है?\nWhich of the following is NOT a type of database model?",
+options:[
+"हाइरार्किकल मॉडल / Hierarchical Model",
+"नेटवर्क मॉडल / Network Model",
+"सीक्वेंशियल मॉडल / Sequential Model",
+"रिलेशनल मॉडल / Relational Model"
+],
+ans:2},
+
+{q:"कौन-सी कुंजी प्रत्येक रिकॉर्ड को विशिष्ट रूप से पहचानती है?\nWhich key uniquely identifies each record in a table?",
+options:[
+"फॉरेन की / Foreign Key",
+"प्राइमरी की / Primary Key",
+"कैंडिडेट की / Candidate Key",
+"अल्टरनेट की / Alternate Key"
+],
+ans:1},
+
+{q:"डेटाबेस में Foreign Key का क्या कार्य है?\nWhat is the function of a Foreign Key in a database?",
+options:[
+"तालिका में विशिष्टता सुनिश्चित करना / Ensures uniqueness in a table",
+"दो तालिकाओं के बीच संबंध स्थापित करना / Establishes a relationship between two tables",
+"बाइनरी डेटा संग्रहित करना / Stores binary data",
+"रिकॉर्ड को आरोही क्रम में सजाना / Sorts the records in ascending order"
+],
+ans:1},
+
+{q:"डेटाबेस से विशेष डेटा निकालने के लिए किस प्रकार की क्वेरी का उपयोग किया जाता है?\nWhich type of query is used to extract specific data from a database?",
+options:[
+"एक्शन क्वेरी / Action Query",
+"सेलेक्ट क्वेरी / Select Query",
+"एपेंड क्वेरी / Append Query",
+"क्रॉसटैब क्वेरी / Crosstab Query"
+],
+ans:1},
+
+{q:"निम्न में से कौन डेटाबेस का ऑब्जेक्ट नहीं है?\nWhich of the following is NOT an object in a database?",
+options:[
+"फॉर्म्स / Forms",
+"रिपोर्ट्स / Reports",
+"फोल्डर / Folder",
+"क्वेरीज़ / Queries"
+],
+ans:2},
+
+{q:"निम्न में से कौन कार्यस्थल का सामान्य खतरा है?\nWhich of the following is a common workplace hazard?",
+options:[
+"भौतिक खतरे / Physical hazards",
+"रासायनिक खतरे / Chemical hazards",
+"जैविक खतरे / Biological hazards",
+"उपरोक्त सभी / All of the above"
+],
+ans:3},
+
+{q:"कार्यस्थल पर आग लगने की स्थिति में पहला कदम क्या होना चाहिए?\nWhat should be the first step in case of a fire at the workplace?",
+options:[
+"मरीजों और कर्मचारियों को बाहर निकालना / Evacuate patients and staff",
+"फायर ब्रिगेड को बुलाना / Call the fire department",
+"फायर अलार्म प्रक्रिया सक्रिय करना / Activate the fire alarm procedures",
+"पानी से आग बुझाना / Use water to put out the fire"
+],
+ans:2},
+
+{q:"अस्पतालों में विद्युत सॉकेट को ओवरलोड क्यों नहीं करना चाहिए?\nWhy are electrical outlets not supposed to be overloaded in hospitals?",
+options:[
+"यह शॉर्ट सर्किट और आग का कारण बन सकता है / It may cause a short circuit and fire",
+"यह बिजली की खपत बढ़ा सकता है / It can increase electricity consumption",
+"यह अन्य उपकरणों के कार्य को प्रभावित कर सकता है / It may affect other equipment functioning",
+"तारें अव्यवस्थित दिखेंगी / It can make the wires look messy"
+],
+ans:0},
+
+{q:"अस्पताल संक्रमण नियंत्रण के लिए वैश्विक सिफारिशें कौन सी संस्था प्रदान करती है?\nWhich agency provides global recommendations for controlling hospital infections?",
+options:[
+"WHO",
+"UNESCO",
+"NASA",
+"FDA"
+],
+ans:0},
+
+{q:"निम्न में से कौन रोगी देखभाल सुरक्षा उपाय का हिस्सा नहीं है?\nWhich of the following is NOT a part of patient care safety measures?",
+options:[
+"जोखिम वाले रोगियों की पहचान करना / Identifying patients at risk",
+"गिरने से रोकना / Preventing falls",
+"रोगियों को बार-बार हीटिंग पैड उपयोग करने के लिए प्रोत्साहित करना / Encouraging patients to use heating pads frequently",
+"संक्रमण के प्रसार को रोकना / Preventing the spread of infections"
+],
+ans:2}
+],
 "11":[
  {q:"Linux kis type ka OS hai?",options:["Proprietary","Open Source","Paid","Utility"],ans:1},
  {q:"Compiler ka use?",options:["Translate code","Store data","Print","Browse"],ans:0}
@@ -3063,3 +3457,4 @@ ans:0},
 }
 ]
 };
+
