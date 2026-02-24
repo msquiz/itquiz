@@ -1884,7 +1884,7 @@ options:[
 ans:0}
 ],
 "10B":[
-{q:"संचार का मुख्य उद्देश्य क्या है?\nWhat is the main purpose of communication?",
+ {q:"संचार का मुख्य उद्देश्य क्या है?\nWhat is the main purpose of communication?",
 options:[
 "जानकारी साझा करना / To share information",
 "श्रोता को भ्रमित करना / To confuse the listener",
@@ -2278,6 +2278,7 @@ options:[
 ],
 ans:2}
 ],
+
 "11":[
  {q:"Linux kis type ka OS hai?",options:["Proprietary","Open Source","Paid","Utility"],ans:1},
  {q:"Compiler ka use?",options:["Translate code","Store data","Print","Browse"],ans:0}
@@ -3457,4 +3458,3 @@ ans:0},
 }
 ]
 };
-
