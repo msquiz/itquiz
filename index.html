@@ -86,8 +86,6 @@ font-size:14px;
 <p><b>Select Class</b></p>
 <select id="classSelect">
 <option value="10">Class 10</option>
-<option value="10A">Board 10</option>
-<option value="10B">VIMCQ 10</option>
 <option value="11">Class 11</option>
 <option value="12">Class 12</option>
 </select>
@@ -148,8 +146,37 @@ Question: <span id="qNumber"></span>
 </div>
 </div>
 </div>
-<script src="questions.js"></script>
+
 <script>
+
+let questionSets = {
+"10": "questionBank10",
+"11": "questionBank11",
+"12": "questionBank12"
+};
+
+// file mapping
+let fileMap = {
+"10":"questions10.js",
+"10A":"questions10.js",
+"10B":"questions10.js",
+"11":"questions11.js",
+"12":"questions12.js"
+};
+
+function loadQuestionsFile(className){
+return new Promise((resolve)=>{
+let script = document.createElement("script");
+
+
+
+script.src = fileMap[className];
+
+script.onload = ()=> resolve();
+document.body.appendChild(script);
+});
+}
+
 let currentQuestion=0,score=0,timer,timeLeft=30,questions=[];
 let used5050=false,usedSkip=false;
 let student='';
@@ -162,20 +189,38 @@ let j=Math.floor(Math.random()*(i+1));
 return array;
 }
 
-function startGame(){
-student=document.getElementById('studentName').value||'Student';
+async function startGame(){
 
-let selectedClass=document.getElementById('classSelect').value;
-questions=[...questionBank[selectedClass]]; // copy array
-shuffleArray(questions); // random order
-questions=questions.slice(0,150); // max 150 questions
-currentQuestion=0;
-score=0;
+student = document.getElementById('studentName').value || 'Student';
+let selectedClass = document.getElementById('classSelect').value;
 
+// load file first
+await loadQuestionsFile(selectedClass);
 
+// assign questions
+if(selectedClass === "10" || selectedClass === "10A" || selectedClass === "10B"){
+    questions = [...questionBank10];
+}
+else if(selectedClass === "11"){
+    questions = [...questionBank11];
+}
+else if(selectedClass === "12"){
+    questions = [...questionBank12];
+}
+
+shuffleArray(questions);
+questions = questions.slice(0,150);
+
+currentQuestion = 0;
+score = 0;
+
+// UI switch
 document.getElementById('startScreen').classList.add('hidden');
 document.getElementById('gameScreen').classList.remove('hidden');
-showQuestion();startTimer();}
+
+showQuestion();
+startTimer();
+}
 
 function showQuestion(){
 if(currentQuestion>=questions.length){endGame();return;}
@@ -229,11 +274,28 @@ if(timeLeft<=0){clearInterval(timer);currentQuestion++;showQuestion();startTimer
 
 function resetTimer(){timeLeft=30;document.getElementById('time').innerText=timeLeft}
 
-function use5050(){if(used5050)return;used5050=true;
+function use5050(){
+if(used5050)return;
+used5050=true;
 document.getElementById('ll5050').classList.add('used');
-const q=questions[currentQuestion];let r=0;
+
+const q=questions[currentQuestion];
+let wrongIndexes=[];
+
+// सभी गलत options collect करें
+q.options.forEach((op,i)=>{
+    if(i!==q.ans) wrongIndexes.push(i);
+});
+
+// random 2 गलत हटाएँ
+wrongIndexes = shuffleArray(wrongIndexes).slice(0,2);
+
 document.querySelectorAll('.option').forEach((op,i)=>{
-if(i!==q.ans&&r<2){op.style.display='none';r++;}})}
+    if(wrongIndexes.includes(i)){
+        op.style.display='none';
+    }
+});
+}
 
 function skipQ(){if(usedSkip)return;usedSkip=true;
 document.getElementById('llSkip').classList.add('used');
@@ -298,7 +360,6 @@ document.getElementById('certDate').innerText=new Date().toLocaleDateString()}
 </body>
 
 </html>
-
 
 
 
