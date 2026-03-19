@@ -93,7 +93,7 @@ font-size:14px;
 
 <div>
 👉 INSTRUCTIONS:<br>
-🔢 Total Questions: 150<br>
+🔢 Total Questions: Unlimited <br>
 ⏱️ Time per Question: 30 sec<br>
 ⭐ Correct Answer: +10 Points<br>
 ❌ Wrong Answer: 0 Point<br>
@@ -103,6 +103,16 @@ font-size:14px;
 
 <div id="gameScreen" class="hidden">
 <div class="topbar">
+
+<div style="margin:10px 0;">
+  <div style="background:#555;border-radius:10px;overflow:hidden;">
+    <div id="progressBar" style="height:12px;width:0%;background:#00c853;"></div>
+  </div>
+  <div style="font-size:14px;margin-top:5px;">
+    Accuracy: <span id="accuracy">0%</span>
+  </div>
+</div>
+
 <div class="lifelines">
 <button id="ll5050" onclick="use5050()">50:50</button>
 <button id="llSkip" onclick="skipQ()">Skip</button>
@@ -148,6 +158,8 @@ Question: <span id="qNumber"></span>
 </div>
 
 <script>
+
+let correctAnswers = 0;
 
 let questionSets = {
 "10": "questionBank10",
@@ -209,7 +221,7 @@ else if(selectedClass === "12"){
 }
 
 shuffleArray(questions);
-questions = questions.slice(0,150);
+//questions = questions.slice(0,150);
 
 currentQuestion = 0;
 score = 0;
@@ -255,11 +267,14 @@ if(sel !== correctIndex){
     options[sel].classList.add('wrong');
 } else {
     score += 10;
+    correctAnswers++;   // ✅ नया add
 }
 
 document.getElementById('points').innerText = score;
 
 // 1.5 सेकंड बाद next question
+
+updateProgress();
 setTimeout(()=>{
     currentQuestion++;
     showQuestion();
@@ -335,6 +350,14 @@ records.push({
 
 localStorage.setItem("quizRecords", JSON.stringify(records));
 
+}
+
+function updateProgress(){
+let totalAttempted = currentQuestion + 1;
+let percent = Math.round((correctAnswers / totalAttempted) * 100);
+
+document.getElementById('progressBar').style.width = percent + "%";
+document.getElementById('accuracy').innerText = percent + "%";
 }
 
 function getLastPerformance(name){
