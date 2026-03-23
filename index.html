@@ -75,7 +75,7 @@ font-size:14px;
 
 <div class="header">
 <img src="logo.png" class="header-logo">
-<h1>Kaun Banega IT Champion</h1>
+<h1>IT Champion QUIZ </h1>
 </div>
 
 <div class="container">
@@ -88,6 +88,8 @@ font-size:14px;
 <option value="10">Class 10</option>
 <option value="11">Class 11</option>
 <option value="12">Class 12</option>
+<option value="12P">PYMCQ 12</option>
+
 </select>
 <button onclick="startGame()">Start Quiz</button>
 
@@ -161,19 +163,11 @@ Question: <span id="qNumber"></span>
 
 let correctAnswers = 0;
 
-let questionSets = {
-"10": "questionBank10",
-"11": "questionBank11",
-"12": "questionBank12"
-};
-
-// file mapping
 let fileMap = {
 "10":"questions10.js",
-"10A":"questions10.js",
-"10B":"questions10.js",
 "11":"questions11.js",
-"12":"questions12.js"
+"12":"questions12.js",
+"12P":"questions12P.js"
 };
 
 function loadQuestionsFile(className){
@@ -210,7 +204,7 @@ let selectedClass = document.getElementById('classSelect').value;
 await loadQuestionsFile(selectedClass);
 
 // assign questions
-if(selectedClass === "10" || selectedClass === "10A" || selectedClass === "10B"){
+if(selectedClass === "10"){
     questions = [...questionBank10];
 }
 else if(selectedClass === "11"){
@@ -218,6 +212,9 @@ else if(selectedClass === "11"){
 }
 else if(selectedClass === "12"){
     questions = [...questionBank12];
+}
+else if(selectedClass === "12P"){
+    questions = [...questionBank12P];
 }
 
 shuffleArray(questions);
@@ -328,7 +325,23 @@ document.getElementById('gameScreen').classList.add('hidden');
 document.getElementById('endScreen').classList.remove('hidden');
 document.getElementById('finalPoints').innerText=score;
 document.getElementById('resName').innerText=student;
-let l='Needs Practice';if(score>=600)l='Skilled Performer';if(score>=900)l='IT Champion';
+let totalQuestions = questions.length;
+let maxScore = totalQuestions * 10; // 1 question = 10 points
+
+let percentage = (score / maxScore) * 100;
+
+let l = '';
+
+if(percentage > 90){
+    l = 'IT Champion';
+}
+else if(percentage >= 50){
+    l = 'Skilled Performer';
+}
+else{
+    l = 'Needs Practice';
+}
+
 document.getElementById('level').innerText='Performance Level: '+l;
 let last = getLastPerformance(student);
 if(last){
